@@ -1,0 +1,136 @@
+/* 
+body{
+    width: 90%;
+    margin: 20px auto;
+} */
+.conteneur{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #191919;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+
+}
+
+nav img{
+    height: 70%;
+    margin-left: 1rem;
+}
+nav div a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem;
+    color: #718080;
+    font-family: "Lora";
+    font-weight: bold;
+}
+
+
+header{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+header div{
+    width: 30%;
+    height: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+header div:first-child{
+    background-image: url(../img/s1b1.jpeg);
+    background-size: cover;
+}
+header div:nth-child(2){
+    background-image: url(../img/s1b2.jpeg);
+    background-size: cover;
+}
+header div:last-child{
+    background-image: url(../img/s1b3.jpeg);
+    background-size: cover;
+}
+header div a{
+    background-color: rgba(16, 15, 15, 0.8);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:white;
+    padding: 5px 15px;
+    border-radius: 10%;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    color: white;
+}
+.section section{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section section h1{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.section section p{
+    margin:1rem;
+}
+audio{
+    width: 50%;
+    margin: 0 auto;
+}
+.section img{
+    width: 50%;
+}
+
+
+.imgvid{
+    display: flex;
+    width: 100%;
+}
+.imgvid video{
+    width: 40%;
+    background-color: black;
+}
+.imgvid img{
+    width: 60%;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    margin: 1rem 0;
+}
+footer div{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer div a{
+    color: white;
+    text-decoration: none;
+}
+footer div:nth-child(2){
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+footer div a:nth-child(2){
+    margin: 1rem;
+}
